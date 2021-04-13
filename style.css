@@ -1,1 +1,60 @@
-line
+@charset "UTF-8";
+/* CSS Document */
+*{
+			box-sizing: border-box;
+		}
+		body{
+			margin: 75px;
+
+		}
+		img {
+			width: 200px;
+		}
+		.header{
+			background-color: black;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			font-family: 'Orbitron', sans-serif;
+		}
+		.nav{
+			overflow: hidden;
+			background-color: cornflowerblue;
+			font-family: 'Source Code Pro', monospace;
+		}
+		.nav a{
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px;
+			text-decoration: none;
+		}
+		.nav a:hover{
+			background-color: indianred;
+			color: black;
+		}
+		.column{
+			float: left;
+			padding: 10px;
+		}
+		.column.side{
+			width: 25%;
+			text-align: center;
+		}
+		.column.middle{
+			width: 50%;
+			text-align: center;
+		}
+		.row:after{
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.footer{
+			background-color: black;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			font-family: 'Source Code Pro', monospace;
+		}
